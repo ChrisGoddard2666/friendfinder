@@ -29,7 +29,7 @@ module.exports = function (app) {
         // The variable used to calculate the difference b/n the user's socres and the scores of each user
         var totalDifference = 0;
         
-        //loop through the friends data array of objects to get each friends scores
+        //loop through the friends dat array of objects to get each friends scores
         for (var i = 0; i < friends.length - 1; i++) {
             console.log(friends[i].name);
             totalDifference = 0;
